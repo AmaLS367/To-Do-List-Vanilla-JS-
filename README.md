@@ -96,7 +96,4 @@ Simply open `index.html` in your browser. Works fully offline.
 
 Created by: [@AmaLS367](https://github.com/AmaLS367)  
 Telegram: [@Amanel0](https://t.me/Amanel0)
-```
-
----
 
