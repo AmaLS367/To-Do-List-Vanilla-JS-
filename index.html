@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+
+ <div id="particles-js"></div>
+
+   <div class="container">
+      <h1>Мой To-Do список</h1>
+      <div class="todo-form">
+        <input type="text" id="taskInput" placeholder="Новая задача..." />
+        <button id="addBtn">Добавить</button>
+      </div>
+
+    <ul id="taskList"></ul>
+
+    <div class="filters">
+        <button data-filter="all" class="filter-btn active">Все</button>
+        <button data-filter="active" class="filter-btn">Активные</button>
+        <button data-filter="completed" class="filter-btn">Выполненные</button>
+    </div>
+
+
+  </div>
+  <script src="script.js"></script>
+    <script>
+        particlesJS('particles-js', {
+        particles: {
+            number: { value: 80 },
+            color: { value: "#ffffff" },
+            shape: { type: "circle" },
+            opacity: { value: 0.2 },
+            size: { value: 3 },
+            move: { enable: true, speed: 1 }
+        },
+        interactivity: {
+            events: {
+            onhover: { enable: false }
+            }
+        }
+        });
+    </script>
+</div>
+    <div class="footer-panel">
+        <button id="exportBtn">Экспорт</button>
+        <input type="file" id="importInput" accept=".json" hidden />
+        <button id="importBtn">Импорт</button>
+    </div>
+</body>
+</html>
