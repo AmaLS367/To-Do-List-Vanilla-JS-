@@ -46,9 +46,6 @@
 
 Разработка: [@AmaLS367](https://github.com/AmaLS367)  
 Telegram: [@Amanel0](https://t.me/твой_ник)
-```
-
-Вот английская версия твоего `README.md`, адаптированная полностью под GitHub-репозиторий.
 
 ---
 
